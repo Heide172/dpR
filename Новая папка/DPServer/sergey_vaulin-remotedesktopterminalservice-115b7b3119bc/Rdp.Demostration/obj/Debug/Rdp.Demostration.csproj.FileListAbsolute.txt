@@ -1,0 +1,3 @@
+D:\Work\Temp\Новая папка\DPServer\sergey_vaulin-remotedesktopterminalservice-115b7b3119bc\Rdp.Demostration\obj\Debug\Rdp.Demostration.csprojResolveAssemblyReference.cache
+D:\Work\Temp\Новая папка\DPServer\sergey_vaulin-remotedesktopterminalservice-115b7b3119bc\Rdp.Demostration\obj\Debug\App.g.cs
+D:\Work\Temp\Новая папка\DPServer\sergey_vaulin-remotedesktopterminalservice-115b7b3119bc\Rdp.Demostration\obj\Debug\Rdp.Demostration_MarkupCompile.cache

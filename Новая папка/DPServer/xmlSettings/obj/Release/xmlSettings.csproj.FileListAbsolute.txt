@@ -1,0 +1,6 @@
+C:\Users\zeber\source\repos\DPServer\xmlSettings\bin\Release\xmlSettings.dll
+C:\Users\zeber\source\repos\DPServer\xmlSettings\bin\Release\xmlSettings.pdb
+C:\Users\zeber\source\repos\DPServer\xmlSettings\obj\Release\xmlSettings.csprojResolveAssemblyReference.cache
+C:\Users\zeber\source\repos\DPServer\xmlSettings\obj\Release\xmlSettings.csproj.CoreCompileInputs.cache
+C:\Users\zeber\source\repos\DPServer\xmlSettings\obj\Release\xmlSettings.dll
+C:\Users\zeber\source\repos\DPServer\xmlSettings\obj\Release\xmlSettings.pdb

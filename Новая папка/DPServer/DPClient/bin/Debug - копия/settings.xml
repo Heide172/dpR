@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XmlSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <guid>d42f6e01-b958-434d-96c8-e0101bc5f76f</guid>
+  <sysinfo1>
+    <processor>1462962458</processor>
+    <memory>-1792386234</memory>
+    <date>11.04.2018 12:07:12</date>
+  </sysinfo1>
+  <sysinfoList>
+    <sysinfo>
+      <processor>1462962458</processor>
+      <memory>-1792386234</memory>
+      <date>11.04.2018 12:07:12</date>
+    </sysinfo>
+  </sysinfoList>
+  <error>Sys is ok</error>
+</XmlSet>

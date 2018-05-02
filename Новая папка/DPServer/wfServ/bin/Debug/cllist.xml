@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfClSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ClSpec>
+    <settings>
+      <guid>72eade1d-06a6-43a4-826f-39a8eefefadd</guid>
+      <sysinfo1>
+        <OSInfo>
+          <BuildNumber>7601</BuildNumber>
+          <Caption>Microsoft Windows 7 Максимальная </Caption>
+          <Name>Microsoft Windows 7 Максимальная |C:\Windows|\Device\Harddisk0\Partition2</Name>
+          <OSType>18</OSType>
+          <RegisteredUser>Someone</RegisteredUser>
+          <SerialNumber>00426-OEM-8992662-00010</SerialNumber>
+          <ServicePackMajorVersion>1</ServicePackMajorVersion>
+          <ServicePackMinorVersion>0</ServicePackMinorVersion>
+          <Status>OK</Status>
+          <SystemDevice>\Device\HarddiskVolume2</SystemDevice>
+          <SystemDirectory>C:\Windows\system32</SystemDirectory>
+          <SystemDrive>C:</SystemDrive>
+          <Version>6.1.7601</Version>
+          <WindowsDirectory>C:\Windows</WindowsDirectory>
+        </OSInfo>
+        <processorInfo>
+          <Name>Intel(R) Core(TM) i5 CPU         760  @ 2.80GHz</Name>
+          <NumberOfCores>4</NumberOfCores>
+          <ID>BFEBFBFF000106E5</ID>
+        </processorInfo>
+        <ramInfo>
+          <ramInfo>
+            <BankLabel>BANK0</BankLabel>
+            <Capacity>2 gb</Capacity>
+            <Speed>1333</Speed>
+          </ramInfo>
+          <ramInfo>
+            <BankLabel>BANK2</BankLabel>
+            <Capacity>2 gb</Capacity>
+            <Speed>1333</Speed>
+          </ramInfo>
+        </ramInfo>
+        <gpuInfo>
+          <gpuInfo>
+            <AdapterRam>1073741824</AdapterRam>
+            <Caption>NVIDIA GeForce GT 430</Caption>
+            <Description>NVIDIA GeForce GT 430</Description>
+            <VideoProcessor>GeForce GT 430</VideoProcessor>
+          </gpuInfo>
+        </gpuInfo>
+        <driveInfo>
+          <driveInfo>
+            <Capacity>0,34 gb</Capacity>
+            <Caption>\\?\Volume{cfec3c1c-4f42-11e6-b35b-806e6f6e6963}\</Caption>
+            <DriveLetter>??</DriveLetter>
+            <DriveType>3</DriveType>
+            <FileSystem>NTFS</FileSystem>
+            <FreeSpace>0,3 gb</FreeSpace>
+          </driveInfo>
+          <driveInfo>
+            <Capacity>102 gb</Capacity>
+            <Caption>C:\</Caption>
+            <DriveLetter>C:</DriveLetter>
+            <DriveType>3</DriveType>
+            <FileSystem>NTFS</FileSystem>
+            <FreeSpace>11,22 gb</FreeSpace>
+          </driveInfo>
+          <driveInfo>
+            <Capacity>353,65 gb</Capacity>
+            <Caption>D:\</Caption>
+            <DriveLetter>D:</DriveLetter>
+            <DriveType>3</DriveType>
+            <FileSystem>NTFS</FileSystem>
+            <FreeSpace>317,41 gb</FreeSpace>
+          </driveInfo>
+        </driveInfo>
+        <lastCheckDate>25.04.2018 12:31:52</lastCheckDate>
+      </sysinfo1>
+      <sysinfoList>
+        <sysinfo>
+          <OSInfo>
+            <BuildNumber>7601</BuildNumber>
+            <Caption>Microsoft Windows 7 Максимальная </Caption>
+            <Name>Microsoft Windows 7 Максимальная |C:\Windows|\Device\Harddisk0\Partition2</Name>
+            <OSType>18</OSType>
+            <RegisteredUser>Someone</RegisteredUser>
+            <SerialNumber>00426-OEM-8992662-00010</SerialNumber>
+            <ServicePackMajorVersion>1</ServicePackMajorVersion>
+            <ServicePackMinorVersion>0</ServicePackMinorVersion>
+            <Status>OK</Status>
+            <SystemDevice>\Device\HarddiskVolume2</SystemDevice>
+            <SystemDirectory>C:\Windows\system32</SystemDirectory>
+            <SystemDrive>C:</SystemDrive>
+            <Version>6.1.7601</Version>
+            <WindowsDirectory>C:\Windows</WindowsDirectory>
+          </OSInfo>
+          <processorInfo>
+            <Name>Intel(R) Core(TM) i5 CPU         760  @ 2.80GHz</Name>
+            <NumberOfCores>4</NumberOfCores>
+            <ID>BFEBFBFF000106E5</ID>
+          </processorInfo>
+          <ramInfo>
+            <ramInfo>
+              <BankLabel>BANK0</BankLabel>
+              <Capacity>2 gb</Capacity>
+              <Speed>1333</Speed>
+            </ramInfo>
+            <ramInfo>
+              <BankLabel>BANK2</BankLabel>
+              <Capacity>2 gb</Capacity>
+              <Speed>1333</Speed>
+            </ramInfo>
+          </ramInfo>
+          <gpuInfo>
+            <gpuInfo>
+              <AdapterRam>1073741824</AdapterRam>
+              <Caption>NVIDIA GeForce GT 430</Caption>
+              <Description>NVIDIA GeForce GT 430</Description>
+              <VideoProcessor>GeForce GT 430</VideoProcessor>
+            </gpuInfo>
+          </gpuInfo>
+          <driveInfo>
+            <driveInfo>
+              <Capacity>0,34 gb</Capacity>
+              <Caption>\\?\Volume{cfec3c1c-4f42-11e6-b35b-806e6f6e6963}\</Caption>
+              <DriveLetter>??</DriveLetter>
+              <DriveType>3</DriveType>
+              <FileSystem>NTFS</FileSystem>
+              <FreeSpace>0,3 gb</FreeSpace>
+            </driveInfo>
+            <driveInfo>
+              <Capacity>29,3 gb</Capacity>
+              <Caption>F:\</Caption>
+              <DriveLetter>F:</DriveLetter>
+              <DriveType>2</DriveType>
+              <FileSystem>NTFS</FileSystem>
+              <FreeSpace>26,03 gb</FreeSpace>
+            </driveInfo>
+            <driveInfo>
+              <Capacity>102 gb</Capacity>
+              <Caption>C:\</Caption>
+              <DriveLetter>C:</DriveLetter>
+              <DriveType>3</DriveType>
+              <FileSystem>NTFS</FileSystem>
+              <FreeSpace>0 gb</FreeSpace>
+            </driveInfo>
+            <driveInfo>
+              <Capacity>353,65 gb</Capacity>
+              <Caption>D:\</Caption>
+              <DriveLetter>D:</DriveLetter>
+              <DriveType>3</DriveType>
+              <FileSystem>NTFS</FileSystem>
+              <FreeSpace>329,35 gb</FreeSpace>
+            </driveInfo>
+          </driveInfo>
+          <lastCheckDate>23.04.2018 14:49:18</lastCheckDate>
+        </sysinfo>
+      </sysinfoList>
+      <error>Sys is ok</error>
+    </settings>
+    <responseState>Cmd response get</responseState>
+    <ipAdr>127.0.0.1</ipAdr>
+  </ClSpec>
+  <ClSpec>
+    <settings>
+      <guid>00000000-0000-0000-0000-000000000000</guid>
+      <sysinfo1>
+        <OSInfo />
+        <processorInfo />
+        <ramInfo />
+        <gpuInfo />
+        <driveInfo />
+      </sysinfo1>
+      <sysinfoList />
+      <error>Sys is ok</error>
+    </settings>
+    <responseState>DEFAULT</responseState>
+    <ipAdr>127.0.0.1</ipAdr>
+  </ClSpec>
+</ArrayOfClSpec>

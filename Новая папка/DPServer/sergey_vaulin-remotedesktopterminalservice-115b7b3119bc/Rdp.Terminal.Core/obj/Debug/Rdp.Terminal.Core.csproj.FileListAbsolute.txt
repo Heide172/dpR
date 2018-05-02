@@ -1,0 +1,5 @@
+D:\Work\Temp\Новая папка\DPServer\sergey_vaulin-remotedesktopterminalservice-115b7b3119bc\Rdp.Terminal.Core\obj\Debug\Rdp.Terminal.Core.csprojResolveAssemblyReference.cache
+D:\Work\Temp\Новая папка\DPServer\sergey_vaulin-remotedesktopterminalservice-115b7b3119bc\Rdp.Terminal.Core\obj\Debug\Client\Controls\RemoteTerminal.g.cs
+D:\Work\Temp\Новая папка\DPServer\sergey_vaulin-remotedesktopterminalservice-115b7b3119bc\Rdp.Terminal.Core\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Work\Temp\Новая папка\DPServer\sergey_vaulin-remotedesktopterminalservice-115b7b3119bc\Rdp.Terminal.Core\obj\Debug\Rdp.Terminal.Core_MarkupCompile.cache
+D:\Work\Temp\Новая папка\DPServer\sergey_vaulin-remotedesktopterminalservice-115b7b3119bc\Rdp.Terminal.Core\obj\Debug\Rdp.Terminal.Core_MarkupCompile.lref

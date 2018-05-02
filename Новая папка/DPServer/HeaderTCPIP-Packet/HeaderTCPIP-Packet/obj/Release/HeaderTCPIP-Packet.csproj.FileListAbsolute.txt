@@ -1,0 +1,6 @@
+C:\Users\zeber\source\repos\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\bin\Release\HeaderTCPIP-Packet.dll
+C:\Users\zeber\source\repos\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\bin\Release\HeaderTCPIP-Packet.pdb
+C:\Users\zeber\source\repos\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\obj\Release\HeaderTCPIP-Packet.csprojResolveAssemblyReference.cache
+C:\Users\zeber\source\repos\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\obj\Release\HeaderTCPIP-Packet.csproj.CoreCompileInputs.cache
+C:\Users\zeber\source\repos\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\obj\Release\HeaderTCPIP-Packet.dll
+C:\Users\zeber\source\repos\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\obj\Release\HeaderTCPIP-Packet.pdb

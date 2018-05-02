@@ -1,0 +1,2 @@
+D:\Work\Temp\Новая папка\SampleRDC\obj\Debug\SampleRDC.csprojResolveAssemblyReference.cache
+D:\Work\Temp\Новая папка\SampleRDC\obj\Debug\Interop.MSTSCLib.dll

@@ -1,0 +1,49 @@
+C:\Users\zeber\source\repos\DPServer\xmlSettings\bin\Debug\xmlSettings.dll
+C:\Users\zeber\source\repos\DPServer\xmlSettings\bin\Debug\xmlSettings.pdb
+C:\Users\zeber\source\repos\DPServer\xmlSettings\obj\Debug\xmlSettings.csproj.CoreCompileInputs.cache
+C:\Users\zeber\source\repos\DPServer\xmlSettings\obj\Debug\xmlSettings.dll
+C:\Users\zeber\source\repos\DPServer\xmlSettings\obj\Debug\xmlSettings.pdb
+C:\Users\zeber\source\repos\DPServer\xmlSettings\obj\Debug\xmlSettings.csprojResolveAssemblyReference.cache
+D:\Work\Temp\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.dll
+D:\Work\Temp\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.pdb
+D:\Work\Temp\Новая папка\DPServer\xmlSettings\bin\Debug\xmlSettings.dll
+D:\Work\Temp\Новая папка\DPServer\xmlSettings\bin\Debug\xmlSettings.pdb
+C:\Users\zeber\Desktop\DPServer\xmlSettings\bin\Debug\xmlSettings.dll
+C:\Users\zeber\Desktop\DPServer\xmlSettings\bin\Debug\xmlSettings.pdb
+C:\Users\zeber\Desktop\DPServer\xmlSettings\obj\Debug\xmlSettings.csprojResolveAssemblyReference.cache
+C:\Users\zeber\Desktop\DPServer\xmlSettings\obj\Debug\xmlSettings.csproj.CoreCompileInputs.cache
+C:\Users\zeber\Desktop\DPServer\xmlSettings\obj\Debug\xmlSettings.dll
+C:\Users\zeber\Desktop\DPServer\xmlSettings\obj\Debug\xmlSettings.pdb
+C:\Users\zeber\Desktop\DPServer\xmlSettings\bin\Debug\NLog.dll
+C:\Users\zeber\Desktop\DPServer\xmlSettings\bin\Debug\NLog.xml
+D:\Work\Temp\Новая папка\DPServer\xmlSettings\bin\Debug\NLog.dll
+D:\Work\Temp\Новая папка\DPServer\xmlSettings\bin\Debug\NLog.xml
+D:\Work\Temp\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.csprojResolveAssemblyReference.cache
+D:\Work\Temp\Новая папка\Новая папка\DPServer\xmlSettings\bin\Debug\xmlSettings.dll
+D:\Work\Temp\Новая папка\Новая папка\DPServer\xmlSettings\bin\Debug\xmlSettings.pdb
+D:\Work\Temp\Новая папка\Новая папка\DPServer\xmlSettings\bin\Debug\NLog.dll
+D:\Work\Temp\Новая папка\Новая папка\DPServer\xmlSettings\bin\Debug\NLog.xml
+D:\Work\Temp\Новая папка\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.csprojResolveAssemblyReference.cache
+D:\Work\Temp\Новая папка\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.dll
+D:\Work\Temp\Новая папка\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.pdb
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\xmlSettings\bin\Debug\xmlSettings.dll
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\xmlSettings\bin\Debug\xmlSettings.pdb
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\xmlSettings\bin\Debug\NLog.dll
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\xmlSettings\bin\Debug\NLog.xml
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.csproj.CoreCompileInputs.cache
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.dll
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.pdb
+E:\Диплом\Новая папка\DPServer\xmlSettings\bin\Debug\xmlSettings.dll
+E:\Диплом\Новая папка\DPServer\xmlSettings\bin\Debug\xmlSettings.pdb
+E:\Диплом\Новая папка\DPServer\xmlSettings\bin\Debug\NLog.dll
+E:\Диплом\Новая папка\DPServer\xmlSettings\bin\Debug\NLog.xml
+E:\Диплом\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.csprojResolveAssemblyReference.cache
+E:\Диплом\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.dll
+E:\Диплом\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.pdb
+D:\Work\Temp\Диплом\Новая папка\DPServer\xmlSettings\bin\Debug\xmlSettings.dll
+D:\Work\Temp\Диплом\Новая папка\DPServer\xmlSettings\bin\Debug\xmlSettings.pdb
+D:\Work\Temp\Диплом\Новая папка\DPServer\xmlSettings\bin\Debug\NLog.dll
+D:\Work\Temp\Диплом\Новая папка\DPServer\xmlSettings\bin\Debug\NLog.xml
+D:\Work\Temp\Диплом\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.csprojResolveAssemblyReference.cache
+D:\Work\Temp\Диплом\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.dll
+D:\Work\Temp\Диплом\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.pdb

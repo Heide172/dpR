@@ -1,0 +1,10 @@
+D:\Work\Temp\Новая папка\CommonTools\bin\Debug\CommonTools.dll
+D:\Work\Temp\Новая папка\CommonTools\bin\Debug\CommonTools.pdb
+D:\Work\Temp\Новая папка\CommonTools\obj\Debug\CommonTools.csprojResolveAssemblyReference.cache
+D:\Work\Temp\Новая папка\CommonTools\obj\Debug\CommonTools.ColorPickerCtrl.resources
+D:\Work\Temp\Новая папка\CommonTools\obj\Debug\CommonTools.ColorPickerDialog.resources
+D:\Work\Temp\Новая папка\CommonTools\obj\Debug\CommonTools.ColorWheelCtrl.resources
+D:\Work\Temp\Новая папка\CommonTools\obj\Debug\CommonTools.PropertyDialog.resources
+D:\Work\Temp\Новая папка\CommonTools\obj\Debug\CommonTools.csproj.GenerateResource.Cache
+D:\Work\Temp\Новая папка\CommonTools\obj\Debug\CommonTools.dll
+D:\Work\Temp\Новая папка\CommonTools\obj\Debug\CommonTools.pdb

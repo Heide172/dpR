@@ -1,0 +1,11 @@
+C:\Users\zeber\source\repos\DPServer\DPClient\bin\Release\DPClient.exe.config
+C:\Users\zeber\source\repos\DPServer\DPClient\bin\Release\DPClient.exe
+C:\Users\zeber\source\repos\DPServer\DPClient\bin\Release\DPClient.pdb
+C:\Users\zeber\source\repos\DPServer\DPClient\bin\Release\HeaderTCPIP-Packet.dll
+C:\Users\zeber\source\repos\DPServer\DPClient\bin\Release\HeaderTCPIP-Packet.pdb
+C:\Users\zeber\source\repos\DPServer\DPClient\obj\Release\DPClient.csprojResolveAssemblyReference.cache
+C:\Users\zeber\source\repos\DPServer\DPClient\obj\Release\DPClient.csproj.CoreCompileInputs.cache
+C:\Users\zeber\source\repos\DPServer\DPClient\obj\Release\DPClient.exe
+C:\Users\zeber\source\repos\DPServer\DPClient\obj\Release\DPClient.pdb
+C:\Users\zeber\source\repos\DPServer\DPClient\obj\Release\DPClient.Form1.resources
+C:\Users\zeber\source\repos\DPServer\DPClient\obj\Release\DPClient.csproj.GenerateResource.Cache

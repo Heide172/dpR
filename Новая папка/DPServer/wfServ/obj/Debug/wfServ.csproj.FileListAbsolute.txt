@@ -1,0 +1,162 @@
+C:\Users\zeber\source\repos\DPServer\wfServ\bin\Debug\wfServ.exe.config
+C:\Users\zeber\source\repos\DPServer\wfServ\bin\Debug\wfServ.exe
+C:\Users\zeber\source\repos\DPServer\wfServ\bin\Debug\wfServ.pdb
+C:\Users\zeber\source\repos\DPServer\wfServ\bin\Debug\clList.dll
+C:\Users\zeber\source\repos\DPServer\wfServ\bin\Debug\HeaderTCPIP-Packet.dll
+C:\Users\zeber\source\repos\DPServer\wfServ\bin\Debug\xmlSettings.dll
+C:\Users\zeber\source\repos\DPServer\wfServ\bin\Debug\clList.pdb
+C:\Users\zeber\source\repos\DPServer\wfServ\bin\Debug\HeaderTCPIP-Packet.pdb
+C:\Users\zeber\source\repos\DPServer\wfServ\bin\Debug\xmlSettings.pdb
+C:\Users\zeber\source\repos\DPServer\wfServ\obj\Debug\wfServ.csprojResolveAssemblyReference.cache
+C:\Users\zeber\source\repos\DPServer\wfServ\obj\Debug\wfServ.Form1.resources
+C:\Users\zeber\source\repos\DPServer\wfServ\obj\Debug\wfServ.Properties.Resources.resources
+C:\Users\zeber\source\repos\DPServer\wfServ\obj\Debug\wfServ.csproj.GenerateResource.Cache
+C:\Users\zeber\source\repos\DPServer\wfServ\obj\Debug\wfServ.csproj.CoreCompileInputs.cache
+C:\Users\zeber\source\repos\DPServer\wfServ\obj\Debug\wfServ.exe
+C:\Users\zeber\source\repos\DPServer\wfServ\obj\Debug\wfServ.pdb
+C:\Users\zeber\source\repos\DPServer\wfServ\obj\Debug\wfServ.trvEdit.resources
+C:\Users\zeber\source\repos\DPServer\wfServ\obj\Debug\wfServ.deleteClient.resources
+C:\Users\zeber\source\repos\DPServer\wfServ\obj\Debug\wfServ.clientEdit.resources
+D:\Work\Temp\Новая папка\DPServer\wfServ\bin\Debug\wfServ.exe.config
+D:\Work\Temp\Новая папка\DPServer\wfServ\obj\Debug\wfServ.exe
+D:\Work\Temp\Новая папка\DPServer\wfServ\obj\Debug\wfServ.pdb
+D:\Work\Temp\Новая папка\DPServer\wfServ\bin\Debug\wfServ.exe
+D:\Work\Temp\Новая папка\DPServer\wfServ\bin\Debug\wfServ.pdb
+D:\Work\Temp\Новая папка\DPServer\wfServ\bin\Debug\clList.dll
+D:\Work\Temp\Новая папка\DPServer\wfServ\bin\Debug\HeaderTCPIP-Packet.dll
+D:\Work\Temp\Новая папка\DPServer\wfServ\bin\Debug\xmlSettings.dll
+D:\Work\Temp\Новая папка\DPServer\wfServ\bin\Debug\clList.pdb
+D:\Work\Temp\Новая папка\DPServer\wfServ\bin\Debug\HeaderTCPIP-Packet.pdb
+D:\Work\Temp\Новая папка\DPServer\wfServ\bin\Debug\xmlSettings.pdb
+D:\Work\Temp\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csprojResolveAssemblyReference.cache
+D:\Work\Temp\Новая папка\DPServer\wfServ\obj\Debug\wfServ.clientEdit.resources
+D:\Work\Temp\Новая папка\DPServer\wfServ\obj\Debug\wfServ.deleteClient.resources
+D:\Work\Temp\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Form1.resources
+D:\Work\Temp\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Properties.Resources.resources
+D:\Work\Temp\Новая папка\DPServer\wfServ\obj\Debug\wfServ.trvEdit.resources
+D:\Work\Temp\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csproj.GenerateResource.Cache
+C:\Users\zeber\Desktop\DPServer\wfServ\bin\Debug\wfServ.exe.config
+C:\Users\zeber\Desktop\DPServer\wfServ\bin\Debug\wfServ.exe
+C:\Users\zeber\Desktop\DPServer\wfServ\bin\Debug\wfServ.pdb
+C:\Users\zeber\Desktop\DPServer\wfServ\bin\Debug\clList.dll
+C:\Users\zeber\Desktop\DPServer\wfServ\bin\Debug\HeaderTCPIP-Packet.dll
+C:\Users\zeber\Desktop\DPServer\wfServ\bin\Debug\xmlSettings.dll
+C:\Users\zeber\Desktop\DPServer\wfServ\bin\Debug\clList.pdb
+C:\Users\zeber\Desktop\DPServer\wfServ\bin\Debug\HeaderTCPIP-Packet.pdb
+C:\Users\zeber\Desktop\DPServer\wfServ\bin\Debug\xmlSettings.pdb
+C:\Users\zeber\Desktop\DPServer\wfServ\obj\Debug\wfServ.csprojResolveAssemblyReference.cache
+C:\Users\zeber\Desktop\DPServer\wfServ\obj\Debug\wfServ.clientEdit.resources
+C:\Users\zeber\Desktop\DPServer\wfServ\obj\Debug\wfServ.deleteClient.resources
+C:\Users\zeber\Desktop\DPServer\wfServ\obj\Debug\wfServ.Form1.resources
+C:\Users\zeber\Desktop\DPServer\wfServ\obj\Debug\wfServ.Properties.Resources.resources
+C:\Users\zeber\Desktop\DPServer\wfServ\obj\Debug\wfServ.trvEdit.resources
+C:\Users\zeber\Desktop\DPServer\wfServ\obj\Debug\wfServ.csproj.GenerateResource.Cache
+C:\Users\zeber\Desktop\DPServer\wfServ\obj\Debug\wfServ.csproj.CoreCompileInputs.cache
+C:\Users\zeber\Desktop\DPServer\wfServ\obj\Debug\wfServ.exe
+C:\Users\zeber\Desktop\DPServer\wfServ\obj\Debug\wfServ.pdb
+C:\Users\zeber\Desktop\DPServer\wfServ\obj\Debug\wfServ.Form2.resources
+D:\Work\Temp\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Form2.resources
+D:\Work\Temp\Новая папка\DPServer\wfServ\obj\Debug\wfServ.cmdManage.resources
+C:\Users\zeber\Desktop\DPServer\wfServ\bin\Debug\NLog.dll
+C:\Users\zeber\Desktop\DPServer\wfServ\bin\Debug\NLog.xml
+C:\Users\zeber\Desktop\DPServer\wfServ\obj\Debug\wfServ.cmdManage.resources
+D:\Work\Temp\Новая папка\DPServer\wfServ\bin\Debug\NLog.dll
+D:\Work\Temp\Новая папка\DPServer\wfServ\bin\Debug\NLog.xml
+D:\Work\Temp\Новая папка\DPServer\wfServ\bin\Debug\CommonTools.dll
+D:\Work\Temp\Новая папка\DPServer\wfServ\bin\Debug\CommonTools.pdb
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\wfServ.exe.config
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.exe
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.pdb
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\wfServ.exe
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\wfServ.pdb
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\clList.dll
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\CommonTools.dll
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\HeaderTCPIP-Packet.dll
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\NLog.dll
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\xmlSettings.dll
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\CommonTools.pdb
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\clList.pdb
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\HeaderTCPIP-Packet.pdb
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\xmlSettings.pdb
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\NLog.xml
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csprojResolveAssemblyReference.cache
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.clientEdit.resources
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.cmdManage.resources
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.deleteClient.resources
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Form1.resources
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Form2.resources
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Properties.Resources.resources
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.trvEdit.resources
+D:\Work\Temp\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csproj.GenerateResource.Cache
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\wfServ.exe.config
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\wfServ.exe
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\wfServ.pdb
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\clList.dll
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\HeaderTCPIP-Packet.dll
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\NLog.dll
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\xmlSettings.dll
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\clList.pdb
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\HeaderTCPIP-Packet.pdb
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\xmlSettings.pdb
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\bin\Debug\NLog.xml
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csprojResolveAssemblyReference.cache
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.clientEdit.resources
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.cmdManage.resources
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.deleteClient.resources
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Form1.resources
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Form2.resources
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Properties.Resources.resources
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.trvEdit.resources
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csproj.GenerateResource.Cache
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csproj.CoreCompileInputs.cache
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.exe
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\wfServ\obj\Debug\wfServ.pdb
+F:\Диплом\Новая папка\DPServer\wfServ\bin\Debug\wfServ.exe.config
+F:\Диплом\Новая папка\DPServer\wfServ\bin\Debug\wfServ.exe
+F:\Диплом\Новая папка\DPServer\wfServ\bin\Debug\wfServ.pdb
+F:\Диплом\Новая папка\DPServer\wfServ\bin\Debug\clList.dll
+F:\Диплом\Новая папка\DPServer\wfServ\bin\Debug\HeaderTCPIP-Packet.dll
+F:\Диплом\Новая папка\DPServer\wfServ\bin\Debug\NLog.dll
+F:\Диплом\Новая папка\DPServer\wfServ\bin\Debug\xmlSettings.dll
+F:\Диплом\Новая папка\DPServer\wfServ\bin\Debug\clList.pdb
+F:\Диплом\Новая папка\DPServer\wfServ\bin\Debug\HeaderTCPIP-Packet.pdb
+F:\Диплом\Новая папка\DPServer\wfServ\bin\Debug\xmlSettings.pdb
+F:\Диплом\Новая папка\DPServer\wfServ\bin\Debug\NLog.xml
+F:\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csprojResolveAssemblyReference.cache
+F:\Диплом\Новая папка\DPServer\wfServ\obj\Debug\Interop.MSTSCLib.dll
+F:\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csproj.ResolveComReference.cache
+F:\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.clientEdit.resources
+F:\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.cmdManage.resources
+F:\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.deleteClient.resources
+F:\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Form1.resources
+F:\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Form2.resources
+F:\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Properties.Resources.resources
+F:\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.trvEdit.resources
+F:\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csproj.GenerateResource.Cache
+F:\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csproj.CoreCompileInputs.cache
+F:\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.exe
+F:\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.pdb
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\bin\Debug\wfServ.exe.config
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\Interop.MSTSCLib.dll
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csproj.ResolveComReference.cache
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.exe
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.pdb
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\bin\Debug\wfServ.exe
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\bin\Debug\wfServ.pdb
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\bin\Debug\clList.dll
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\bin\Debug\HeaderTCPIP-Packet.dll
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\bin\Debug\NLog.dll
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\bin\Debug\xmlSettings.dll
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\bin\Debug\clList.pdb
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\bin\Debug\HeaderTCPIP-Packet.pdb
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\bin\Debug\xmlSettings.pdb
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\bin\Debug\NLog.xml
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csprojResolveAssemblyReference.cache
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.clientEdit.resources
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.cmdManage.resources
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.deleteClient.resources
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Form1.resources
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Form2.resources
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Properties.Resources.resources
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.trvEdit.resources
+D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csproj.GenerateResource.Cache

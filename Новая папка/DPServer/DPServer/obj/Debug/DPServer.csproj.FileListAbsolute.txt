@@ -1,0 +1,103 @@
+c:\users\zeber\source\repos\DPServer\DPServer\obj\Debug\DPServer.csprojResolveAssemblyReference.cache
+c:\users\zeber\source\repos\DPServer\DPServer\obj\Debug\DPServer.csproj.CoreCompileInputs.cache
+c:\users\zeber\source\repos\DPServer\DPServer\bin\Debug\DPServer.exe.config
+c:\users\zeber\source\repos\DPServer\DPServer\bin\Debug\DPServer.exe
+c:\users\zeber\source\repos\DPServer\DPServer\bin\Debug\DPServer.pdb
+c:\users\zeber\source\repos\DPServer\DPServer\bin\Debug\HeaderTCPIP-Packet.dll
+c:\users\zeber\source\repos\DPServer\DPServer\bin\Debug\HeaderTCPIP-Packet.pdb
+c:\users\zeber\source\repos\DPServer\DPServer\obj\Debug\DPServer.exe
+c:\users\zeber\source\repos\DPServer\DPServer\obj\Debug\DPServer.pdb
+C:\Users\zeber\source\repos\DPServer\DPServer\obj\Debug\DPServer.Form1.resources
+C:\Users\zeber\source\repos\DPServer\DPServer\obj\Debug\DPServer.csproj.GenerateResource.Cache
+C:\Users\zeber\source\repos\DPServer\DPServer\bin\Debug\xmlSettings.dll
+C:\Users\zeber\source\repos\DPServer\DPServer\bin\Debug\xmlSettings.pdb
+C:\Users\zeber\source\repos\DPServer\DPServer\bin\Debug\clList.dll
+C:\Users\zeber\source\repos\DPServer\DPServer\bin\Debug\clList.pdb
+D:\Work\Temp\Новая папка\DPServer\DPServer\bin\Debug\DPServer.exe.config
+D:\Work\Temp\Новая папка\DPServer\DPServer\obj\Debug\DPServer.exe
+D:\Work\Temp\Новая папка\DPServer\DPServer\obj\Debug\DPServer.pdb
+D:\Work\Temp\Новая папка\DPServer\DPServer\obj\Debug\DPServer.csprojResolveAssemblyReference.cache
+D:\Work\Temp\Новая папка\DPServer\DPServer\obj\Debug\DPServer.Form1.resources
+D:\Work\Temp\Новая папка\DPServer\DPServer\obj\Debug\DPServer.csproj.GenerateResource.Cache
+D:\Work\Temp\Новая папка\DPServer\DPServer\bin\Debug\DPServer.exe
+D:\Work\Temp\Новая папка\DPServer\DPServer\bin\Debug\DPServer.pdb
+D:\Work\Temp\Новая папка\DPServer\DPServer\bin\Debug\clList.dll
+D:\Work\Temp\Новая папка\DPServer\DPServer\bin\Debug\HeaderTCPIP-Packet.dll
+D:\Work\Temp\Новая папка\DPServer\DPServer\bin\Debug\xmlSettings.dll
+D:\Work\Temp\Новая папка\DPServer\DPServer\bin\Debug\clList.pdb
+D:\Work\Temp\Новая папка\DPServer\DPServer\bin\Debug\HeaderTCPIP-Packet.pdb
+D:\Work\Temp\Новая папка\DPServer\DPServer\bin\Debug\xmlSettings.pdb
+C:\Users\zeber\Desktop\DPServer\DPServer\bin\Debug\DPServer.exe.config
+C:\Users\zeber\Desktop\DPServer\DPServer\bin\Debug\DPServer.exe
+C:\Users\zeber\Desktop\DPServer\DPServer\bin\Debug\DPServer.pdb
+C:\Users\zeber\Desktop\DPServer\DPServer\bin\Debug\clList.dll
+C:\Users\zeber\Desktop\DPServer\DPServer\bin\Debug\HeaderTCPIP-Packet.dll
+C:\Users\zeber\Desktop\DPServer\DPServer\bin\Debug\xmlSettings.dll
+C:\Users\zeber\Desktop\DPServer\DPServer\bin\Debug\clList.pdb
+C:\Users\zeber\Desktop\DPServer\DPServer\bin\Debug\HeaderTCPIP-Packet.pdb
+C:\Users\zeber\Desktop\DPServer\DPServer\bin\Debug\xmlSettings.pdb
+C:\Users\zeber\Desktop\DPServer\DPServer\obj\Debug\DPServer.csprojResolveAssemblyReference.cache
+C:\Users\zeber\Desktop\DPServer\DPServer\obj\Debug\DPServer.Form1.resources
+C:\Users\zeber\Desktop\DPServer\DPServer\obj\Debug\DPServer.csproj.GenerateResource.Cache
+C:\Users\zeber\Desktop\DPServer\DPServer\obj\Debug\DPServer.csproj.CoreCompileInputs.cache
+C:\Users\zeber\Desktop\DPServer\DPServer\obj\Debug\DPServer.exe
+C:\Users\zeber\Desktop\DPServer\DPServer\obj\Debug\DPServer.pdb
+F:\DPServer\DPServer\bin\Debug\DPServer.exe.config
+F:\DPServer\DPServer\obj\Debug\DPServer.exe
+F:\DPServer\DPServer\obj\Debug\DPServer.pdb
+C:\Users\zeber\Desktop\DPServer\DPServer\bin\Debug\NLog.dll
+C:\Users\zeber\Desktop\DPServer\DPServer\bin\Debug\NLog.xml
+D:\Work\Temp\Новая папка\DPServer\DPServer\bin\Debug\NLog.dll
+D:\Work\Temp\Новая папка\DPServer\DPServer\bin\Debug\NLog.xml
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\DPServer.exe.config
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\obj\Debug\DPServer.exe
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\obj\Debug\DPServer.pdb
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\DPServer.exe
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\DPServer.pdb
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\clList.dll
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\HeaderTCPIP-Packet.dll
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\NLog.dll
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\xmlSettings.dll
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\clList.pdb
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\HeaderTCPIP-Packet.pdb
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\xmlSettings.pdb
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\NLog.xml
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\obj\Debug\DPServer.csprojResolveAssemblyReference.cache
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\obj\Debug\DPServer.Form1.resources
+D:\Work\Temp\Новая папка\Новая папка\DPServer\DPServer\obj\Debug\DPServer.csproj.GenerateResource.Cache
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\DPServer.exe.config
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\DPServer.exe
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\DPServer.pdb
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\clList.dll
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\HeaderTCPIP-Packet.dll
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\NLog.dll
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\xmlSettings.dll
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\clList.pdb
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\HeaderTCPIP-Packet.pdb
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\xmlSettings.pdb
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\bin\Debug\NLog.xml
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\obj\Debug\DPServer.csprojResolveAssemblyReference.cache
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\obj\Debug\DPServer.Form1.resources
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\obj\Debug\DPServer.csproj.GenerateResource.Cache
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\obj\Debug\DPServer.csproj.CoreCompileInputs.cache
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\obj\Debug\DPServer.exe
+F:\Новая папка (3)\Новая папка\Новая папка\DPServer\DPServer\obj\Debug\DPServer.pdb
+E:\Диплом\Новая папка\DPServer\DPServer\bin\Debug\DPServer.exe.config
+E:\Диплом\Новая папка\DPServer\DPServer\obj\Debug\DPServer.exe
+E:\Диплом\Новая папка\DPServer\DPServer\obj\Debug\DPServer.pdb
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\bin\Debug\DPServer.exe.config
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\obj\Debug\DPServer.exe
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\obj\Debug\DPServer.pdb
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\bin\Debug\DPServer.exe
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\bin\Debug\DPServer.pdb
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\bin\Debug\clList.dll
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\bin\Debug\HeaderTCPIP-Packet.dll
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\bin\Debug\NLog.dll
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\bin\Debug\xmlSettings.dll
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\bin\Debug\clList.pdb
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\bin\Debug\HeaderTCPIP-Packet.pdb
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\bin\Debug\xmlSettings.pdb
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\bin\Debug\NLog.xml
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\obj\Debug\DPServer.csprojResolveAssemblyReference.cache
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\obj\Debug\DPServer.Form1.resources
+D:\Work\Temp\Диплом\Новая папка\DPServer\DPServer\obj\Debug\DPServer.csproj.GenerateResource.Cache
