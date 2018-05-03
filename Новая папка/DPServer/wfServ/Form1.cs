@@ -35,8 +35,6 @@ namespace wfServ
             ClientSendCmd += clientCmdSent;
            
             tabControl1.Selecting += new TabControlCancelEventHandler(tabControl1_Selecting);
-            clCmdFill();
-            servCmdFill();
             Application.ApplicationExit += new EventHandler(this.OnApplicationExit);
            
             XmlHandler a = new XmlHandler();
@@ -82,16 +80,8 @@ namespace wfServ
             
 
         }
-        private void clCmdFill()
-        {
-            listBox2.Items.Add("Set system checked"); // 0 
-        }
-
-        private void servCmdFill()
-        {
-            listBox3.Items.Add("Restart server"); // 0 
-
-        }
+       
+      
         private void OnApplicationExit(object sender, EventArgs e)
         {
             XmlHandler a = new XmlHandler();
@@ -347,43 +337,9 @@ namespace wfServ
 
         }
 
-        private void button9_Click(object sender, EventArgs e)
-        {
-            Cmd cmd = new Cmd();
-            cmd.list = new List<Guid>();
+       
 
-            cmd.cmdIndex = listBox2.SelectedIndex;
-
-            TreeNodeCollection tree = treeView1.Nodes;// перебор узлов
-            foreach (TreeNode node in tree)
-            {
-                TreeNodeCollection collection = node.Nodes;// перебор элементов узла
-                foreach (TreeNode node1 in collection)
-                {
-                    if (node1.Checked)
-                    {
-                        string gd = node1.ToolTipText.Substring(0, 36);
-                        Guid guid = Guid.Parse(gd);
-                        cmd.list.Add(guid);
-                    }
-                }
-            }
-            byte[] data;
-            using (MemoryStream Memory = new MemoryStream()) // сериализация перечисления
-            {
-                BinaryFormatter bf = new BinaryFormatter();
-                bf.Serialize(Memory, cmd);
-                Memory.Position = 0;
-                data = new byte[Memory.Length];
-                var r = Memory.Read(data, 0, data.Length);
-            }
-            client.Send(HeaderPack.ServiceMessage.clCommand, client.guid, data);
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            client.SendCommand(HeaderPack.ServiceMessage.servCommand, client.guid, listBox3.SelectedIndex);
-        }
+      
 
         private void button11_Click(object sender, EventArgs e)
         {
@@ -608,7 +564,7 @@ namespace wfServ
             }
             catch (Exception ex)
             {
-                logger.WarnException("exeption get while trying to load from xml", ex);
+                    logger.WarnException("exeption get while trying to load from xml", ex);
                 MessageBox.Show(ex.ToString());
             }
         }
@@ -706,6 +662,57 @@ namespace wfServ
                 var r = Memory.Read(data, 0, data.Length);
             }
             client.Send(HeaderPack.ServiceMessage.clCommand, client.guid, data);
+        }
+
+        private void button3_Click_1(object sender, EventArgs e) // открытие файла для отправки 
+        {
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+            if (openFileDialog1.ShowDialog() == DialogResult.Cancel)
+                return;
+            // получаем выбранный файл
+            string filename = openFileDialog1.FileName;
+            textBoxCOM_FILE_PATH.Text = filename;
+            MessageBox.Show("Файл открыт");
+            openFileDialog1.Dispose();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e) // отправка файла
+        {
+            string ext = Path.GetExtension(textBoxCOM_FILE_PATH.Text);
+            ext = ext + "//01";
+            List<Guid> destClients = new List<Guid>();
+            TreeNodeCollection tree = treeView1.Nodes;// перебор узлов
+            foreach (TreeNode node in tree)
+            {
+                TreeNodeCollection collection = node.Nodes;// перебор элементов узла
+                foreach (TreeNode node1 in collection)
+                {
+                    if (node1.Checked)
+                        destClients.Add(Guid.Parse(node1.ToolTipText));
+                }
+            }
+
+            client.SendFile(HeaderPack.ServiceMessage.file, client.guid, textBoxCOM_FILE_PATH.Text, ext, destClients);
+
+        }
+
+        private void button5_Click_1(object sender, EventArgs e) // отправка и открытие файла
+        {
+            string ext = Path.GetExtension(textBoxCOM_FILE_PATH.Text);
+            ext = ext + "//02";
+            List<Guid> destClients = new List<Guid>();
+            TreeNodeCollection tree = treeView1.Nodes;// перебор узлов
+            foreach (TreeNode node in tree)
+            {
+                TreeNodeCollection collection = node.Nodes;// перебор элементов узла
+                foreach (TreeNode node1 in collection)
+                {
+                    if (node1.Checked)
+                        destClients.Add(Guid.Parse(node1.ToolTipText));
+                }
+            }
+
+            client.SendFile(HeaderPack.ServiceMessage.file, client.guid, textBoxCOM_FILE_PATH.Text, ext, destClients);
         }
     }
 

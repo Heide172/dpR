@@ -70,3 +70,14 @@ D:\Work\Temp\Диплом\Новая папка\DPServer\HeaderTCPIP-Packet\Head
 D:\Work\Temp\Диплом\Новая папка\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\obj\Debug\HeaderTCPIP-Packet.csprojResolveAssemblyReference.cache
 D:\Work\Temp\Диплом\Новая папка\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\obj\Debug\HeaderTCPIP-Packet.dll
 D:\Work\Temp\Диплом\Новая папка\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\obj\Debug\HeaderTCPIP-Packet.pdb
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\bin\Debug\HeaderTCPIP-Packet.dll
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\bin\Debug\HeaderTCPIP-Packet.pdb
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\bin\Debug\clList.dll
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\bin\Debug\NLog.dll
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\bin\Debug\xmlSettings.dll
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\bin\Debug\clList.pdb
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\bin\Debug\NLog.xml
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\bin\Debug\xmlSettings.pdb
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\obj\Debug\HeaderTCPIP-Packet.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\obj\Debug\HeaderTCPIP-Packet.dll
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\HeaderTCPIP-Packet\HeaderTCPIP-Packet\obj\Debug\HeaderTCPIP-Packet.pdb

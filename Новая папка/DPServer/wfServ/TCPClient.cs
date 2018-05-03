@@ -483,7 +483,7 @@ namespace wfServ
         }
 
         
-        public void SendFile(ServiceMessage message, Guid guid, string path, string ext)
+        public void SendFile(ServiceMessage message, Guid guid, string path, string ext, List<Guid> destGuid)
         {
             byte[] buffer;
             byte[] header;
@@ -504,6 +504,7 @@ namespace wfServ
                 headerDsc.Message = message;
                 headerDsc.guid = guid;
                 headerDsc.ext = ext;
+                headerDsc.destClients = destGuid;
                 headerDsc.Hex = file.CheckSum(path); // хэш сумма для проверки целостности
                 headerDsc.DataSize = data.Length;
 

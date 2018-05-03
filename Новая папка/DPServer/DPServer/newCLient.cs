@@ -184,7 +184,78 @@ namespace DPServer
             }
 
         }
+        public void Send(HeaderDsc headerDsc, byte[] data)
+        {
+            byte[] buffer;
+            byte[] header;
+            byte[] infobuffer; //???
+            NetworkStream Network;
 
+
+            if (tcpClient == null || !tcpClient.Connected)
+            {
+                ErrorMsg = "Удаленный хост принудительно разорвал существующее подключение.";
+                return;
+            }
+            try
+            {
+                headerDsc.destClients = null;
+
+                using (MemoryStream Memory = new MemoryStream()) // сериализация заголовка
+                {
+                    BinaryFormatter bf = new BinaryFormatter();
+                    bf.Serialize(Memory, headerDsc);
+                    Memory.Position = 0;
+                    infobuffer = new byte[Memory.Length];
+                    var r = Memory.Read(infobuffer, 0, infobuffer.Length);
+                }
+
+                buffer = new byte[TCPPack.BufferSize];
+                header = BitConverter.GetBytes(infobuffer.Length);
+
+                Buffer.BlockCopy(header, 0, buffer, 0, header.Length);
+                Buffer.BlockCopy(infobuffer, 0, buffer, header.Length, infobuffer.Length);
+
+                int bufferShift = header.Length + infobuffer.Length; // сдвиг на размер заголовка
+                int rdShift = 0; // сдвиг на кол-во переданных байт
+                int lengthPack = 0; // фактический размер буффера
+                Network = tcpClient.GetStream();
+
+                while (rdShift < (headerDsc.DataSize + bufferShift)) // пока переданное кол-во байтов меньше ожидаемого 
+                {
+                    var remBytes = headerDsc.DataSize - rdShift;
+
+                    if (remBytes < buffer.Length) lengthPack = remBytes;
+                    else lengthPack = buffer.Length - bufferShift;
+
+                    Buffer.BlockCopy(data, rdShift, buffer, bufferShift, lengthPack);
+                    rdShift += lengthPack;
+                    Network.Write(buffer, 0, lengthPack + bufferShift);
+                    bufferShift = 0;
+
+
+
+
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                ErrorMsg = ex.Message;
+                //this.Stop();
+                Console.WriteLine(ex.Message + " " + ex.HResult.ToString());
+            }
+            //finally
+            //{
+            //    header = null;
+            //    infobuffer = null;
+            //    buffer = null;
+            //    Network = null;
+            //    headerDsc = null;
+            //}
+        }
         public void Send(ServiceMessage message, Guid guid, byte[] data)
         {
             byte[] buffer;

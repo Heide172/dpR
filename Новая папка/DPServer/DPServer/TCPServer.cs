@@ -132,12 +132,20 @@ namespace DPServer
             {
                 case ServiceMessage.file: // получение файла
 
-                    FilePr file = new FilePr();
-                    string path = "123" + header.ext;
-                    File.WriteAllBytes(path, data);
-                    if (!(file.CheckSum(path) == header.Hex)) Console.WriteLine("file damaged"); // проверка целостности файла
+                    if (sender.clientState == 1)
+                    {
+                        foreach (Guid gd in header.destClients)
+                        { 
+                            foreach (newCLient cl in ClientList)
+                            {
+                                if (cl.settings.guid == gd)
+                                {
+                                    cl.Send(header, data);
+                                }
+                            }
+                        }
+                    }
                     break;
-
                 case ServiceMessage.data:
                     break;
                 case ServiceMessage.Authorization: // подключение
@@ -189,8 +197,7 @@ namespace DPServer
                             {
                                 foreach (newCLient cl in ClientList)
                                 {
-                                    if (cl.clSpec.settings == null) ;
-                                    else
+                                    if (cl.clSpec.settings != null)
                                     {
                                         if (cl.clSpec.settings.guid == guid)
                                         {

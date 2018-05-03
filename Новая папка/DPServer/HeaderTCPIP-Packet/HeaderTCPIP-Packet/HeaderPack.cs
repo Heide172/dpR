@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using clSpec;
 namespace HeaderPack
 {
 
@@ -22,6 +22,7 @@ namespace HeaderPack
         public string ext; // полное имя файла 
         public string Hex; // хеш сумма файла
         public int comIndex; // индекс комманды 
+        public List<Guid> destClients; // список клиентов 
     }
 
 
@@ -45,5 +46,7 @@ namespace HeaderPack
         public static int BufferSize = 8192;
 
     }
+
+   
 
 }

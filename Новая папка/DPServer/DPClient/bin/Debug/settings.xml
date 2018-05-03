@@ -53,20 +53,12 @@
         <FreeSpace>0.1 gb</FreeSpace>
       </driveInfo>
       <driveInfo>
-        <Capacity>29.3 gb</Capacity>
-        <Caption>G:\</Caption>
-        <DriveLetter>G:</DriveLetter>
-        <DriveType>2</DriveType>
-        <FileSystem>NTFS</FileSystem>
-        <FreeSpace>25.86 gb</FreeSpace>
-      </driveInfo>
-      <driveInfo>
         <Capacity>243.65 gb</Capacity>
         <Caption>C:\</Caption>
         <DriveLetter>C:</DriveLetter>
         <DriveType>3</DriveType>
         <FileSystem>NTFS</FileSystem>
-        <FreeSpace>30.93 gb</FreeSpace>
+        <FreeSpace>31.04 gb</FreeSpace>
       </driveInfo>
       <driveInfo>
         <Capacity>0.1 gb</Capacity>
@@ -93,7 +85,7 @@
         <FreeSpace>0 gb</FreeSpace>
       </driveInfo>
     </driveInfo>
-    <lastCheckDate>5/3/2018 3:38:46 PM</lastCheckDate>
+    <lastCheckDate>5/3/2018 8:55:50 PM</lastCheckDate>
   </sysinfo1>
   <sysinfoList>
     <sysinfo>
@@ -266,7 +258,7 @@
           <FreeSpace>0 gb</FreeSpace>
         </driveInfo>
       </driveInfo>
-      <lastCheckDate>5/3/2018 3:38:46 PM</lastCheckDate>
+      <lastCheckDate>5/3/2018 8:55:50 PM</lastCheckDate>
     </sysinfo>
   </sysinfoList>
   <error>Sys is ok</error>

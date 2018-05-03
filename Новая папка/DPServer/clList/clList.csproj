@@ -53,10 +53,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HeaderTCPIP-Packet\HeaderTCPIP-Packet\HeaderTCPIP-Packet.csproj">
-      <Project>{f8067035-2204-4b35-b781-5cb71946fcff}</Project>
-      <Name>HeaderTCPIP-Packet</Name>
-    </ProjectReference>
     <ProjectReference Include="..\xmlSettings\xmlSettings.csproj">
       <Project>{ecd6aec4-dc7c-4e90-910f-53ff5f7153e1}</Project>
       <Name>xmlSettings</Name>
