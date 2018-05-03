@@ -2,7 +2,4 @@
   <TreeViewNode value="Unallocated clients " tooltip="">
     <TreeViewNode value="127.0.0.1" tooltip="72eade1d-06a6-43a4-826f-39a8eefefadd" />
   </TreeViewNode>
-  <TreeViewNode value="01" tooltip="">
-    <TreeViewNode value="127.0.0.1" tooltip="" />
-  </TreeViewNode>
 </ROOT>

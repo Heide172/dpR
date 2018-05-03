@@ -4,96 +4,80 @@
   <sysinfo1>
     <OSInfo>
       <BuildNumber>7601</BuildNumber>
-      <Caption>Microsoft Windows 7 Ultimate </Caption>
-      <Name>Microsoft Windows 7 Ultimate |C:\Windows|\Device\Harddisk0\Partition4</Name>
+      <Caption>Microsoft Windows 7 Максимальная </Caption>
+      <Name>Microsoft Windows 7 Максимальная |C:\Windows|\Device\Harddisk0\Partition2</Name>
       <OSType>18</OSType>
-      <RegisteredUser>1</RegisteredUser>
-      <SerialNumber>00426-292-0000007-85993</SerialNumber>
+      <RegisteredUser>Someone</RegisteredUser>
+      <SerialNumber>00426-OEM-8992662-00010</SerialNumber>
       <ServicePackMajorVersion>1</ServicePackMajorVersion>
       <ServicePackMinorVersion>0</ServicePackMinorVersion>
       <Status>OK</Status>
-      <SystemDevice>\Device\HarddiskVolume3</SystemDevice>
+      <SystemDevice>\Device\HarddiskVolume2</SystemDevice>
       <SystemDirectory>C:\Windows\system32</SystemDirectory>
       <SystemDrive>C:</SystemDrive>
       <Version>6.1.7601</Version>
       <WindowsDirectory>C:\Windows</WindowsDirectory>
     </OSInfo>
     <processorInfo>
-      <Name>AMD FX(tm)-6300 Six-Core Processor             </Name>
-      <NumberOfCores>6</NumberOfCores>
-      <ID>178BFBFF00600F20</ID>
+      <Name>Intel(R) Core(TM) i5 CPU         760  @ 2.80GHz</Name>
+      <NumberOfCores>4</NumberOfCores>
+      <ID>BFEBFBFF000106E5</ID>
     </processorInfo>
     <ramInfo>
       <ramInfo>
-        <BankLabel>Bank4/5</BankLabel>
-        <Capacity>4 gb</Capacity>
-        <Speed>1600</Speed>
+        <BankLabel>BANK0</BankLabel>
+        <Capacity>2 gb</Capacity>
+        <Speed>1333</Speed>
       </ramInfo>
       <ramInfo>
-        <BankLabel>Bank6/7</BankLabel>
-        <Capacity>4 gb</Capacity>
-        <Speed>1600</Speed>
+        <BankLabel>BANK2</BankLabel>
+        <Capacity>2 gb</Capacity>
+        <Speed>1333</Speed>
       </ramInfo>
     </ramInfo>
     <gpuInfo>
       <gpuInfo>
         <AdapterRam>1073741824</AdapterRam>
-        <Caption>NVIDIA GeForce GT 640</Caption>
-        <Description>NVIDIA GeForce GT 640</Description>
-        <VideoProcessor>GeForce GT 640</VideoProcessor>
+        <Caption>NVIDIA GeForce GT 430</Caption>
+        <Description>NVIDIA GeForce GT 430</Description>
+        <VideoProcessor>GeForce GT 430</VideoProcessor>
       </gpuInfo>
     </gpuInfo>
     <driveInfo>
       <driveInfo>
-        <Capacity>0.49 gb</Capacity>
-        <Caption>\\?\Volume{d2f65f06-445e-11e8-85ec-806e6f6e6963}\</Caption>
+        <Capacity>0,34 gb</Capacity>
+        <Caption>\\?\Volume{cfec3c1c-4f42-11e6-b35b-806e6f6e6963}\</Caption>
         <DriveLetter>??</DriveLetter>
         <DriveType>3</DriveType>
         <FileSystem>NTFS</FileSystem>
-        <FreeSpace>0.1 gb</FreeSpace>
+        <FreeSpace>0,3 gb</FreeSpace>
       </driveInfo>
       <driveInfo>
-        <Capacity>29.3 gb</Capacity>
-        <Caption>G:\</Caption>
-        <DriveLetter>G:</DriveLetter>
+        <Capacity>29,3 gb</Capacity>
+        <Caption>F:\</Caption>
+        <DriveLetter>F:</DriveLetter>
         <DriveType>2</DriveType>
         <FileSystem>NTFS</FileSystem>
-        <FreeSpace>25.86 gb</FreeSpace>
+        <FreeSpace>25,98 gb</FreeSpace>
       </driveInfo>
       <driveInfo>
-        <Capacity>243.65 gb</Capacity>
+        <Capacity>102 gb</Capacity>
         <Caption>C:\</Caption>
         <DriveLetter>C:</DriveLetter>
         <DriveType>3</DriveType>
         <FileSystem>NTFS</FileSystem>
-        <FreeSpace>31.07 gb</FreeSpace>
+        <FreeSpace>9,87 gb</FreeSpace>
       </driveInfo>
       <driveInfo>
-        <Capacity>0.1 gb</Capacity>
+        <Capacity>353,65 gb</Capacity>
         <Caption>D:\</Caption>
         <DriveLetter>D:</DriveLetter>
         <DriveType>3</DriveType>
         <FileSystem>NTFS</FileSystem>
-        <FreeSpace>0.06 gb</FreeSpace>
-      </driveInfo>
-      <driveInfo>
-        <Capacity>687.27 gb</Capacity>
-        <Caption>E:\</Caption>
-        <DriveLetter>E:</DriveLetter>
-        <DriveType>3</DriveType>
-        <FileSystem>NTFS</FileSystem>
-        <FreeSpace>592.24 gb</FreeSpace>
-      </driveInfo>
-      <driveInfo>
-        <Capacity>0.66 gb</Capacity>
-        <Caption>F:\</Caption>
-        <DriveLetter>F:</DriveLetter>
-        <DriveType>5</DriveType>
-        <FileSystem>CDFS</FileSystem>
-        <FreeSpace>0 gb</FreeSpace>
+        <FreeSpace>317,41 gb</FreeSpace>
       </driveInfo>
     </driveInfo>
-    <lastCheckDate>5/2/2018 10:36:52 PM</lastCheckDate>
+    <lastCheckDate>27.04.2018 12:31:55</lastCheckDate>
   </sysinfo1>
   <sysinfoList>
     <sysinfo>
@@ -175,5 +159,5 @@
       <lastCheckDate>23.04.2018 14:49:18</lastCheckDate>
     </sysinfo>
   </sysinfoList>
-  <error>Dismatching proccessor, last date was: 23.04.2018 14:49:18</error>
+  <error>Sys is ok</error>
 </XmlSet>

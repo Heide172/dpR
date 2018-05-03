@@ -37,7 +37,7 @@ namespace DPServer
             tcpClient.ReceiveBufferSize = TCPPack.BufferSize;
             tcpClient.SendBufferSize = TCPPack.BufferSize;
             ipadr = IPAddress.Parse(((IPEndPoint)tcpClient.Client.RemoteEndPoint).Address.ToString());
-            Console.WriteLine("e23e42323d");
+            //Console.WriteLine("e23e42323d");
             clSpec.ipAdr = Convert.ToString(((System.Net.IPEndPoint)client.Client.RemoteEndPoint).Address);
 
         }
@@ -166,7 +166,7 @@ namespace DPServer
                 catch(Exception ex)
                 {
                     ErrorMsg = ex.Message;
-                    Console.WriteLine(ex.ToString());
+                    Console.WriteLine(ex.Message + " " + ex.HResult.ToString());
                     run = false;
                     Stop();
                 }
@@ -250,7 +250,7 @@ namespace DPServer
             {
                 ErrorMsg = ex.Message;
                 //this.Stop();
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine(ex.Message + " " + ex.HResult.ToString());
             }
             //finally
             //{
@@ -326,7 +326,7 @@ namespace DPServer
             catch (Exception ex)
             {
                 ErrorMsg = ex.Message;
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine(ex.Message + " " + ex.HResult.ToString());
                 
             }
             finally
@@ -405,7 +405,7 @@ namespace DPServer
             catch (Exception ex)
             {
                 ErrorMsg = ex.Message;
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine(ex.Message + " " + ex.HResult.ToString());
                 this.Stop();
             }
             finally
@@ -484,7 +484,7 @@ namespace DPServer
             {
                 ErrorMsg = ex.Message;
                 //this.Stop();
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine(ex.Message + " " + ex.HResult.ToString());
             }
             //finally
             //{

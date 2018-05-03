@@ -26,7 +26,11 @@ namespace wfServ
         public event SocketDisconnectedEventHandler Disconnected;
         public delegate void GetCmdResponse1(Cmd cmd);
         public event GetCmdResponse1 GetCmdResponse;
-        
+        public delegate void onServerClose(string reason);
+        public event onServerClose servClosed;
+        public delegate void errorGet(int errID);
+        public event errorGet exeptionGet;
+
 
         public IPAddress servAdress = IPAddress.Parse("127.0.0.1");
         public IPAddress thisAdress;
@@ -70,7 +74,8 @@ namespace wfServ
             catch (Exception ex)
             {
                 this.Disonnect();
-                MessageBox.Show(ex.ToString());
+                exeptionGet(ex.HResult);
+                MessageBox.Show(ex.HResult.ToString());
                 return false;
                 
                // throw new Exception(ex.Message);
@@ -84,6 +89,7 @@ namespace wfServ
                 tcpClient.Client.Close();
                 tcpClient.Close();
                 tcpClient = null;
+                
             }
         }
         public void Check_in()
@@ -177,15 +183,28 @@ namespace wfServ
                         DataProcess(data, headerDsc);// здесь должна быть обработка полученных данных
                     }
 
-                    
 
 
+
+                }
+                catch (SocketException ex)
+                {
+                    exeptionGet(ex.ErrorCode);
+                    MessageBox.Show(ex.ErrorCode.ToString());
+
+                }
+                catch (IOException ex)
+                {
+                    exeptionGet(ex.HResult);
+                        MessageBox.Show(ex.HResult.ToString());
+                        this.Disonnect();
+                
                 }
                 catch (Exception ex)
                 {
                     ErrorMsg = ex.Message;
                     if (ex.Message != "Ссылка на объект не указывает на экземпляр объекта.")
-                    MessageBox.Show(ex.ToString());
+                        MessageBox.Show(ex.HResult.ToString());
                 }
                 
 
@@ -299,7 +318,11 @@ namespace wfServ
                     MessageBox.Show(Encoding.Default.GetString(data));
                     break;
                 case ServiceMessage.error:
-                    MessageBox.Show(Encoding.Default.GetString(data));
+                    string er = Encoding.Default.GetString(data);
+                    if (er == "001")
+                        servClosed("Server was closed manualy");
+                    else
+                        MessageBox.Show(er);
                     break;
                
             }
@@ -366,8 +389,9 @@ namespace wfServ
             }
             catch (Exception ex)
             {
+                
                 ErrorMsg = ex.Message;
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show(ex.Message + " " + ex.HResult.ToString());
                 this.Disonnect();
             }
             finally
@@ -445,7 +469,7 @@ namespace wfServ
             catch (Exception ex)
             {
                 ErrorMsg = ex.Message;
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show(ex.Message + " " + ex.HResult.ToString());
                 this.Disonnect();
             }
             finally
@@ -526,7 +550,7 @@ namespace wfServ
             catch (Exception ex)
             {
                 ErrorMsg = ex.Message;
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show(ex.Message + " " + ex.HResult.ToString());
                 this.Disonnect();
             }
             finally

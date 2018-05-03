@@ -10,7 +10,6 @@ using System.Diagnostics;
 namespace DPClient
 {
     class Program
-    // TEST 1
     {
         static IPAddress servAdress = IPAddress.Parse("127.0.0.1");
         static string settingsPath = "settings.xml";

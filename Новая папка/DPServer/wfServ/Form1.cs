@@ -28,11 +28,12 @@ namespace wfServ
         cmdManage cmdManage = new cmdManage();// сохраненные cmd комманды 
         Logger logger = LogManager.GetCurrentClassLogger();
         List<Cmd> responseList = new List<Cmd>();
+        
         public Form1()
         {
             InitializeComponent();
             ClientSendCmd += clientCmdSent;
-            client.GetCmdResponse += onGetCmdResponse;
+           
             tabControl1.Selecting += new TabControlCancelEventHandler(tabControl1_Selecting);
             clCmdFill();
             servCmdFill();
@@ -57,7 +58,9 @@ namespace wfServ
         {
             textBox2.Text = ConfigurationManager.AppSettings["serverIp"];
             client = new TCPClient(IPAddress.Parse(textBox2.Text));
-            
+            client.GetCmdResponse += onGetCmdResponse;
+            client.servClosed += onServDisconnect;
+            client.exeptionGet += tcpClientExeptionHandler;
             
 
         }
@@ -96,6 +99,7 @@ namespace wfServ
             }
             client.Connect();
             logger.Trace("Connected to server");
+            label5.BackColor = Color.Green;
         }
 
         private void clientConnected(Guid guid, string ip)
@@ -547,6 +551,7 @@ namespace wfServ
             }
             client.Connect();
             logger.Trace("Connected to server");
+            label5.BackColor = Color.Green;
         }
 
         private void disconnectToolStripMenuItem_Click(object sender, EventArgs e)
@@ -642,6 +647,23 @@ namespace wfServ
             }
             // Validate the current page. To cancel the select, use:
             
+        }
+
+        void onServDisconnect (string s )
+        {
+            label5.BackColor = Color.Red;
+            client.Disonnect();
+            foreach (ClSpec c in client.ClientList)
+            {
+                clientDisconnected(c.settings.guid, c.ipAdr); 
+            }
+            
+        }
+
+
+        void tcpClientExeptionHandler(int errCode)
+        {
+            textBox4.Text = textBox4.Text + Environment.NewLine + "TCP client exeption get, the code is : " + errCode + Environment.NewLine;
         }
     }
 

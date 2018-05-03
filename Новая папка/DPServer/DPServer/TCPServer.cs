@@ -9,10 +9,25 @@ using System.Runtime.Serialization.Formatters.Binary;
 using clSpec;
 using System.Threading.Tasks;
 using System.Text;
+using System.Runtime.InteropServices;
 
 namespace DPServer
 {
-    
+    internal delegate void SignalHandler(ConsoleSignal consoleSignal);
+    internal enum ConsoleSignal
+    {
+        CtrlC = 0,
+        CtrlBreak = 1,
+        Close = 2,
+        LogOff = 5,
+        Shutdown = 6
+    }
+
+    internal static class ConsoleHelper
+    {
+        [DllImport("Kernel32", EntryPoint = "SetConsoleCtrlHandler")]
+        public static extern bool SetSignalHandler(SignalHandler handler, bool add);
+    }
 
     class TCPServer
     {
@@ -34,10 +49,14 @@ namespace DPServer
         private bool run;
         public string ErrorMsg;
         Guid guid = Guid.Parse("00000000-0000-0000-0000-000000000000");
-        
+
+
+        private static SignalHandler signalHandler;
         public bool Start() //обработка подключений 
         {
-
+            signalHandler += onServClose;
+            ConsoleHelper.SetSignalHandler(signalHandler, true);
+            
             try
             {
                 tcpListener = new TcpListener(IPAddress.Any, 3155);
@@ -50,7 +69,7 @@ namespace DPServer
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex);
+                Console.WriteLine(ex.Message + " " + ex.HResult.ToString());
                 tcpListener = null;
                 //throw;
                 return false;
@@ -75,7 +94,7 @@ namespace DPServer
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex);
+                    Console.WriteLine(ex.Message + " " + ex.HResult.ToString());
                     SendErMessage(ex.ToString());
 
                 }
@@ -325,7 +344,7 @@ namespace DPServer
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.ToString());
+                    Console.WriteLine(ex.Message + " " + ex.HResult.ToString());
                 }
             
             }
@@ -369,10 +388,16 @@ namespace DPServer
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine(ex.Message + " " + ex.HResult.ToString());
             }
         }
 
+        void onServClose(ConsoleSignal consoleSignal)
+        {
+            SendErMessage("001");
+        }
+
+    
     }
 
     struct DataList

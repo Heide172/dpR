@@ -160,3 +160,8 @@ D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ
 D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.Properties.Resources.resources
 D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.trvEdit.resources
 D:\Work\Temp\Диплом\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csproj.GenerateResource.Cache
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\wfServ\bin\Debug\wfServ.exe.config
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\wfServ\obj\Debug\Interop.MSTSCLib.dll
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\wfServ\obj\Debug\wfServ.csproj.ResolveComReference.cache
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\wfServ\obj\Debug\wfServ.exe
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\wfServ\obj\Debug\wfServ.pdb

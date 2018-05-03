@@ -44,6 +44,5 @@ D:\Work\Temp\Диплом\Новая папка\DPServer\xmlSettings\bin\Debug\x
 D:\Work\Temp\Диплом\Новая папка\DPServer\xmlSettings\bin\Debug\xmlSettings.pdb
 D:\Work\Temp\Диплом\Новая папка\DPServer\xmlSettings\bin\Debug\NLog.dll
 D:\Work\Temp\Диплом\Новая папка\DPServer\xmlSettings\bin\Debug\NLog.xml
-D:\Work\Temp\Диплом\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.csprojResolveAssemblyReference.cache
 D:\Work\Temp\Диплом\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.dll
 D:\Work\Temp\Диплом\Новая папка\DPServer\xmlSettings\obj\Debug\xmlSettings.pdb

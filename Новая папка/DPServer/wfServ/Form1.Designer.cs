@@ -272,6 +272,8 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Red;
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label5.Location = new System.Drawing.Point(9, 733);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(85, 13);
@@ -372,7 +374,6 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Response ";
             this.tabPage2.UseVisualStyleBackColor = true;
-//            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
             // button1
             // 
