@@ -13,6 +13,10 @@ namespace wfServ
     public partial class clientEdit : Form
     {
         TreeView treeView1;
+        public delegate void ClientListUpdatedAddCl(Guid guid, string ip);
+        public event ClientListUpdatedAddCl newClientConnected;
+        public delegate void ClientListUpdatedRemoveCl(Guid guid, string ip);
+        public event ClientListUpdatedRemoveCl ClientDisconneted;
         public clientEdit(TreeView trv)
         {
             treeView1 = trv;
@@ -33,6 +37,7 @@ namespace wfServ
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            checkedListBox1.Items.Clear();
             foreach (TreeNode node in treeView1.Nodes[comboBox1.SelectedIndex].Nodes)
             {
                 checkedListBox1.Items.Add(node.Text);
@@ -43,9 +48,15 @@ namespace wfServ
         {
             foreach (int indexChecked in checkedListBox1.CheckedIndices)
             {
+                TreeNode node = new TreeNode();
+                node.Text = treeView1.Nodes[comboBox1.SelectedIndex].Nodes[indexChecked].Text;
+                node.ToolTipText = treeView1.Nodes[comboBox1.SelectedIndex].Nodes[indexChecked].ToolTipText;
                treeView1.Nodes[comboBox2.SelectedIndex].Nodes.Add( 
-                   treeView1.Nodes[comboBox1.SelectedIndex].Nodes[indexChecked].Text);
+                   node);
+                    
                treeView1.Nodes[comboBox1.SelectedIndex].Nodes[indexChecked].Remove();
+               ClientDisconneted(Guid.Parse(node.ToolTipText), node.Text);
+               newClientConnected(Guid.Parse(node.ToolTipText), node.Text);
             }
             MessageBox.Show("Done");
         }

@@ -12,11 +12,17 @@ namespace wfServ
 {
     public partial class trvEdit : Form
     {
+        public delegate void ClientListUpdatedAddCl(Guid guid, string ip);
+        public event ClientListUpdatedAddCl newClientConnected;
+        public delegate void ClientListUpdatedRemoveCl(Guid guid, string ip);
+        public event ClientListUpdatedRemoveCl ClientDisconneted;
+
         TreeView treeView1;
         public trvEdit(TreeView trv)
         {
             treeView1 = trv;
             InitializeComponent();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -40,7 +46,18 @@ namespace wfServ
         private void button3_Click(object sender, EventArgs e)
         {
             clientEdit cl = new clientEdit(treeView1);
+            cl.newClientConnected += onClAdd;
+            cl.ClientDisconneted += onClDelete;
             cl.Show();
+        }
+
+        private void onClDelete(Guid guid, string ip)
+        {
+            ClientDisconneted(guid, ip); 
+        }
+        private void onClAdd(Guid guid, string ip)
+        {
+            newClientConnected(guid, ip);
         }
     }
 }

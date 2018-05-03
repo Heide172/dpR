@@ -53,6 +53,24 @@ namespace wfServ
             startupLoad();
            
             a.XmlToTreeView(xmlPath, treeView1);
+
+            try 
+            {
+                client.newClientConnected += clientConnected;
+                client.ClientDisconneted += clientDisconnected;
+                client.GetCmdResponse += onGetCmdResponse;
+                if (client.tcpClient == null) client.tcpClient = new System.Net.Sockets.TcpClient();
+                if (client.tcpClient.Connected)
+                {
+                    MessageBox.Show("Already connected !");
+                    return;
+                }
+                client.Connect();
+                logger.Trace("Connected to server");
+                label5.BackColor = Color.Green;
+            }
+            catch(Exception ex)
+            {}
         }
         private void startupLoad()
         {
@@ -258,6 +276,8 @@ namespace wfServ
         private void editToolStripMenuItem_Click(object sender, EventArgs e)
         {
             trvEdit trv = new trvEdit(treeView1);
+            trv.newClientConnected += clientConnected;
+            trv.ClientDisconneted += clientDisconnected;
             trv.Show();
         }
 
@@ -430,71 +450,74 @@ namespace wfServ
 
         void treeView1_NodeMouseDoubleClick(object sender, TreeNodeMouseClickEventArgs e)
         {
-            textBoxInfoGUID.Text = "";
-            textBoxInfoIPADD.Text = "";
-            textBoxInfoSTATE.Text = "";
-            textBoxINFO_HDD.Text = "";
-            textBoxINFO_PROC_CAPTION.Text = "";
-            textBoxINFO_PROC_NUMOFCORES.Text = "";
-            textBoxINFO_RAM_CAPTION.Text = "";
-            textBoxINFO_RAM_CLOCK.Text = "";
-            listBoxINFO_GPU_NAME.Items.Clear();
-            listBoxINFO_RAM_CAPACITY.Items.Clear();
-            textBoxINFO_OS_BUILD.Text = "";
-            textBoxINFO_OS_NAME.Text = "";
-            textBoxINFO_OS_SERIAL.Text = "";
-            textBoxINFO_OS_STATUS.Text = "";
-            textBoxINFO_OS_SYS_DIR.Text = "";
-            textBoxINFO_OS_VERSION.Text = "";
-
-
-            try
+            if (e.Node.ToolTipText != "")
             {
-                textBoxInfoIPADD.Text = e.Node.Text;
-                textBoxInfoGUID.Text = e.Node.ToolTipText;
-                foreach (ClSpec cl in client.ClientList)
+                textBoxInfoGUID.Text = "";
+                textBoxInfoIPADD.Text = "";
+                textBoxInfoSTATE.Text = "";
+                textBoxINFO_HDD.Text = "";
+                textBoxINFO_PROC_CAPTION.Text = "";
+                textBoxINFO_PROC_NUMOFCORES.Text = "";
+                textBoxINFO_RAM_CAPTION.Text = "";
+                textBoxINFO_RAM_CLOCK.Text = "";
+                listBoxINFO_GPU_NAME.Items.Clear();
+                listBoxINFO_RAM_CAPACITY.Items.Clear();
+                textBoxINFO_OS_BUILD.Text = "";
+                textBoxINFO_OS_NAME.Text = "";
+                textBoxINFO_OS_SERIAL.Text = "";
+                textBoxINFO_OS_STATUS.Text = "";
+                textBoxINFO_OS_SYS_DIR.Text = "";
+                textBoxINFO_OS_VERSION.Text = "";
+
+
+                try
                 {
-                    if (cl.settings.guid == Guid.Parse(e.Node.ToolTipText))
+                    textBoxInfoIPADD.Text = e.Node.Text;
+                    textBoxInfoGUID.Text = e.Node.ToolTipText;
+                    foreach (ClSpec cl in client.ClientList)
                     {
-                        textBoxInfoSTATE.Text = cl.settings.error;
-                        textBoxINFO_RAM_CAPTION.Text = cl.settings.sysinfo1.ramInfo[0].BankLabel;
-                        textBoxINFO_RAM_CLOCK.Text = cl.settings.sysinfo1.ramInfo[0].Speed;
-                        textBoxINFO_OS_NAME.Text = cl.settings.sysinfo1.OSInfo.Caption;
-                        textBoxINFO_OS_VERSION.Text = cl.settings.sysinfo1.OSInfo.Version;
-                        textBoxINFO_OS_STATUS.Text = cl.settings.sysinfo1.OSInfo.Status;
-                        textBoxINFO_OS_SERIAL.Text = cl.settings.sysinfo1.OSInfo.SerialNumber ;
-                        textBoxINFO_OS_BUILD.Text = cl.settings.sysinfo1.OSInfo.BuildNumber;
-                        textBoxINFO_OS_SYS_DIR.Text = cl.settings.sysinfo1.OSInfo.SystemDirectory;
+                        if (cl.settings.guid == Guid.Parse(e.Node.ToolTipText))
+                        {
+                            textBoxInfoSTATE.Text = cl.settings.error;
+                            textBoxINFO_RAM_CAPTION.Text = cl.settings.sysinfo1.ramInfo[0].BankLabel;
+                            textBoxINFO_RAM_CLOCK.Text = cl.settings.sysinfo1.ramInfo[0].Speed;
+                            textBoxINFO_OS_NAME.Text = cl.settings.sysinfo1.OSInfo.Caption;
+                            textBoxINFO_OS_VERSION.Text = cl.settings.sysinfo1.OSInfo.Version;
+                            textBoxINFO_OS_STATUS.Text = cl.settings.sysinfo1.OSInfo.Status;
+                            textBoxINFO_OS_SERIAL.Text = cl.settings.sysinfo1.OSInfo.SerialNumber;
+                            textBoxINFO_OS_BUILD.Text = cl.settings.sysinfo1.OSInfo.BuildNumber;
+                            textBoxINFO_OS_SYS_DIR.Text = cl.settings.sysinfo1.OSInfo.SystemDirectory;
 
 
-                        foreach (ramInfo r in cl.settings.sysinfo1.ramInfo)
-                        {
-                            listBoxINFO_RAM_CAPACITY.Items.Add(r.Capacity);
-                        }
-                        foreach (driveInfo d in cl.settings.sysinfo1.driveInfo)
-                        {
-                            textBoxINFO_HDD.Text = textBoxINFO_HDD.Text +
-                                "-/-/-/-/-/-/" + Environment.NewLine +
-                                d.Caption + " " + Environment.NewLine +
-                                "Total Space : " + d.Capacity + Environment.NewLine +
-                                "Free Space : " + d.FreeSpace + Environment.NewLine +
-                                "File System : " + d.FileSystem + Environment.NewLine;
-                                
-                        }
-                        textBoxINFO_PROC_CAPTION.Text = cl.settings.sysinfo1.processorInfo.Name;
-                        textBoxINFO_PROC_NUMOFCORES.Text = cl.settings.sysinfo1.processorInfo.NumberOfCores;
-                        foreach (gpuInfo g in cl.settings.sysinfo1.gpuInfo)
-                        {
-                            listBoxINFO_GPU_NAME.Items.Add(g.Caption);
-                        }
+                            foreach (ramInfo r in cl.settings.sysinfo1.ramInfo)
+                            {
+                                listBoxINFO_RAM_CAPACITY.Items.Add(r.Capacity);
+                            }
+                            foreach (driveInfo d in cl.settings.sysinfo1.driveInfo)
+                            {
+                                textBoxINFO_HDD.Text = textBoxINFO_HDD.Text +
+                                    "-/-/-/-/-/-/" + Environment.NewLine +
+                                    d.Caption + " " + Environment.NewLine +
+                                    "Total Space : " + d.Capacity + Environment.NewLine +
+                                    "Free Space : " + d.FreeSpace + Environment.NewLine +
+                                    "File System : " + d.FileSystem + Environment.NewLine;
 
-                        tabControl1.SelectedTab = tabPage4;
+                            }
+                            textBoxINFO_PROC_CAPTION.Text = cl.settings.sysinfo1.processorInfo.Name;
+                            textBoxINFO_PROC_NUMOFCORES.Text = cl.settings.sysinfo1.processorInfo.NumberOfCores;
+                            foreach (gpuInfo g in cl.settings.sysinfo1.gpuInfo)
+                            {
+                                listBoxINFO_GPU_NAME.Items.Add(g.Caption);
+                            }
+
+                            tabControl1.SelectedTab = tabPage4;
+                        }
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
             }
         }
 
@@ -664,6 +687,25 @@ namespace wfServ
         void tcpClientExeptionHandler(int errCode)
         {
             textBox4.Text = textBox4.Text + Environment.NewLine + "TCP client exeption get, the code is : " + errCode + Environment.NewLine;
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Cmd cmd = new Cmd();
+            cmd.list = new List<Guid>();
+
+            cmd.cmdIndex = 0;
+            cmd.list.Add(Guid.Parse(textBoxInfoGUID.Text));
+            byte[] data;
+            using (MemoryStream Memory = new MemoryStream()) // сериализация перечисления
+            {
+                BinaryFormatter bf = new BinaryFormatter();
+                bf.Serialize(Memory, cmd);
+                Memory.Position = 0;
+                data = new byte[Memory.Length];
+                var r = Memory.Read(data, 0, data.Length);
+            }
+            client.Send(HeaderPack.ServiceMessage.clCommand, client.guid, data);
         }
     }
 

@@ -106,6 +106,7 @@
             this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manualUpdateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clearListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button2 = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
             this.contextMenuStrip2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -709,6 +710,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.textBoxInfoSTATE);
             this.groupBox1.Controls.Add(this.textBoxInfoGUID);
             this.groupBox1.Controls.Add(this.textBoxInfoIPADD);
@@ -717,7 +719,7 @@
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Location = new System.Drawing.Point(3, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(312, 117);
+            this.groupBox1.Size = new System.Drawing.Size(795, 117);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "General";
@@ -726,21 +728,21 @@
             // 
             this.textBoxInfoSTATE.Location = new System.Drawing.Point(90, 82);
             this.textBoxInfoSTATE.Name = "textBoxInfoSTATE";
-            this.textBoxInfoSTATE.Size = new System.Drawing.Size(216, 20);
+            this.textBoxInfoSTATE.Size = new System.Drawing.Size(362, 20);
             this.textBoxInfoSTATE.TabIndex = 5;
             // 
             // textBoxInfoGUID
             // 
             this.textBoxInfoGUID.Location = new System.Drawing.Point(90, 56);
             this.textBoxInfoGUID.Name = "textBoxInfoGUID";
-            this.textBoxInfoGUID.Size = new System.Drawing.Size(216, 20);
+            this.textBoxInfoGUID.Size = new System.Drawing.Size(362, 20);
             this.textBoxInfoGUID.TabIndex = 4;
             // 
             // textBoxInfoIPADD
             // 
             this.textBoxInfoIPADD.Location = new System.Drawing.Point(90, 30);
             this.textBoxInfoIPADD.Name = "textBoxInfoIPADD";
-            this.textBoxInfoIPADD.Size = new System.Drawing.Size(216, 20);
+            this.textBoxInfoIPADD.Size = new System.Drawing.Size(362, 20);
             this.textBoxInfoIPADD.TabIndex = 3;
             // 
             // label8
@@ -833,6 +835,16 @@
             this.clearListToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.clearListToolStripMenuItem.Text = "Clear List";
             this.clearListToolStripMenuItem.Click += new System.EventHandler(this.clearListToolStripMenuItem_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(497, 80);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(122, 23);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Set system checked ";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // Form1
             // 
@@ -958,6 +970,7 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

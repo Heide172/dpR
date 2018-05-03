@@ -76,3 +76,14 @@ D:\Work\Temp\Диплом\Новая папка\DPServer\clList\bin\Debug\NLog.x
 D:\Work\Temp\Диплом\Новая папка\DPServer\clList\obj\Debug\clList.csprojResolveAssemblyReference.cache
 D:\Work\Temp\Диплом\Новая папка\DPServer\clList\obj\Debug\clList.dll
 D:\Work\Temp\Диплом\Новая папка\DPServer\clList\obj\Debug\clList.pdb
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\clList\bin\Debug\clList.dll
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\clList\bin\Debug\clList.pdb
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\clList\bin\Debug\HeaderTCPIP-Packet.dll
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\clList\bin\Debug\NLog.dll
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\clList\bin\Debug\xmlSettings.dll
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\clList\bin\Debug\HeaderTCPIP-Packet.pdb
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\clList\bin\Debug\xmlSettings.pdb
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\clList\bin\Debug\NLog.xml
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\clList\obj\Debug\clList.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\clList\obj\Debug\clList.dll
+C:\Users\1\Desktop\Диплом1\Новая папка\DPServer\clList\obj\Debug\clList.pdb

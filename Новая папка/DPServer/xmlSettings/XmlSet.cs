@@ -22,10 +22,37 @@ namespace xmlSettings
            try 
            {
                if (sysinfo1.processorInfo.ID != sysinfoList[sysinfoList.Count - 1].processorInfo.ID)
+               {
+
                    error = "Dismatching proccessor, last date was: " + sysinfoList[sysinfoList.Count - 1].lastCheckDate;
-               
-               if  (sysinfo1.ramInfo.Count != sysinfoList[sysinfoList.Count - 1].ramInfo.Count)
-                   error = "Dismatching ram, last date was: "  + sysinfoList[sysinfoList.Count - 1].lastCheckDate;
+               }
+
+               if (sysinfo1.ramInfo.Count != sysinfoList[sysinfoList.Count - 1].ramInfo.Count)
+               {
+                   error = "Dismatching ram, last date was: " + sysinfoList[sysinfoList.Count - 1].lastCheckDate;
+               }
+
+
+               if (error == "Sys is ok")
+               {
+                   sysinfoList[sysinfoList.Count - 1].lastCheckDate = sysinfo1.lastCheckDate;
+               }
+               else
+               {
+                       if (sysinfo1.processorInfo.ID != sysinfoList[sysinfoList.Count - 1].processorInfo.ID)
+                       {
+
+                           error = "Dismatching proccessor, last date was: " + sysinfoList[sysinfoList.Count - 1].lastCheckDate;
+                           sysinfoList.Add(sysinfo1);
+                       }
+
+                       if (sysinfo1.ramInfo.Count != sysinfoList[sysinfoList.Count - 1].ramInfo.Count)
+                       {
+                           error = "Dismatching ram, last date was: " + sysinfoList[sysinfoList.Count - 1].lastCheckDate;
+                           sysinfoList.Add(sysinfo1);
+                       }
+                       sysinfoList[sysinfoList.Count - 1].lastCheckDate = sysinfo1.lastCheckDate;
+                }
                
            }
            catch (Exception ex)
